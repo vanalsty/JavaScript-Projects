@@ -1,38 +1,35 @@
-function my_Function() {
-    document.getElementById("Test").innerHTML = 2.7976931348623157E+10308;
-}
+document.writeln("This shows the type of variable 14 is."); document.writeln(typeof 14); 
+document.write("<br>");
+document.write("<br>");
+
+document.writeln("This shows the type of variable \"Hello\" is."); document.write(typeof "Hello"); 
+document.write("<br>");
+document.write("<br>");
+
+document.writeln("This combines a number and a string variable. ");document.writeln("10" + 5);
+document.write("<br>");
+document.write("<br>");
+
+document.writeln("Is 10 + 3 = 13? "); document.writeln(10+3 == 13); 
+document.write("<br>");
+document.write("<br>");
+
+document.writeln("Is 10 - 3 not equal to 13? "); document.writeln(10-3 !== 13); 
+document.write("<br>");
+document.write("<br>");
 
 
-document.writeln("10" + 5);
-document.writeln(10 == 10);
-document.writeln(10+3 == 15);
-X = "Lori";
-Y = "Laurie";
-document.writeln(X === Y);
-A = 15;
-B = 15;
-document.writeln(A === B);
-C = "15";
-D = 15;
-document.writeln(C === D);
-E = "Lori";
-F = "Lori";
-document.writeln(E === F);
+document.writeln("Are 15 and \"15\" equal value and equal type? ");document.writeln(15 === "15"); 
+document.write("<br>");
+document.write("<br>");
 
-document.writeln(6 > 3 && 5 > 2);
-
+document.writeln("Is 6 > 3 and 1 > 2? ");
 document.writeln(6 > 3 && 1 > 2);
+document.write("<br>");
+document.write("<br>");
 
+document.writeln("Is 6 > 3 or 1 > 2? ");
 document.writeln(6 > 3 || 1 > 2);
+document.write("<br>");
+document.write("<br>");
 
-document.writeln(6 < 3 || 5 < 2);
-
-document.writeln(10<2);
-
-document.writeln(10>2);
-
-console.log(16<4);
-
-function not_Function() {
-    document.getElementById("Not").innerHTML = !(5 > 10);
-}
