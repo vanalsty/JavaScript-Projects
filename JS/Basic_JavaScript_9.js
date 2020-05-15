@@ -1,3 +1,17 @@
+function countdown() {
+    var seconds = document.getElementById("seconds").value;
+
+    function tick() {
+        seconds = seconds -1;
+        timer.innerHTML = seconds;
+        setTimeout(tick, 1000);
+    if(seconds == -1) {
+        alert("Times up!  You're too slow!!");
+    }
+        }
+    tick();
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +40,4 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
