@@ -1,3 +1,7 @@
 # JavaScript-Projects
 JavaScript Projects from Tech Academy
-Includes a simple pizza menu and Tic Tac Toe game.
+Includes: <br />
+Simple pizza menu <br />
+Tic Tac Toe game <br />
+Calculator <br />
+Cinema Website <br />
